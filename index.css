@@ -175,7 +175,7 @@ header .bienvenida{
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .section_paginas{
         display: flex;
         align-items: center;
