@@ -172,16 +172,13 @@ main{
     width: 100%;
     padding: 12px;
     border: none;
-    background-color: bisque;
+    background-color: black;
     color: white;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: bisque;
-}
 
 
 .informacion{
@@ -315,6 +312,6 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 1600px;
+        height: 16  00px;
     }
 }
