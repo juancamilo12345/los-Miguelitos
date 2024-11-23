@@ -2,13 +2,53 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url(imagenes/imagenPromocion3.jpg);
+    background-size: cover;
 }
-header {
-    background-color: black;
+header{
+    background-color: #333; /* Fondo oscuro para el header */
+    padding: 4px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center;
+}
+
+.logo {
     color: white;
-    padding: 10px 20px;
-    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none; /* Quitar los puntos de las listas */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none; /* Quitar subrayado de los links */
+    color: white; /* Color de los enlaces */
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block; /* Para que el área clickeable sea toda la caja */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición para hover */
+}
+
+/* Hover sobre los enlaces */
+nav ul li a:hover {
+    background-color: #575757; /* Fondo oscuro al pasar el ratón */
+}
+
+/* Estilo responsive (pantallas pequeñas) */
+.logo {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
 }
 main {
     padding: 20px;
