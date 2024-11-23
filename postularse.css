@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 75%;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+    transition: color 0.3s;
+}
+
+.logo{
+    height: 85%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.seccion_paginas a{
+    font-size: 17.2px;
+    padding-right: 30px;
+}
+
+main{
+    font-family: monospace;
+}
+
+div{
+    display: block;
+}
+
+input{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.section_campana{
+    background-color: rgb(88, 83, 83);
+    width: 100%;
+    height: 80vh;
+    padding: 35px;
+}
+
+.informacionNuestra{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.informacion{
+    background-color: rgb(80, 80, 157);
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.seccion_formulario{
+    margin: 20px 26%;
+    background-color: rgb(72, 66, 66);
+    width: 50%;
+    height: 90%;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: white;
+    border: none;
+}
+
+.seccion_formulario textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    background-color: rgb(233, 247, 247);
+}
+
+
+.imagenPromocion{
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #00bcd4;
+}
+
+footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}

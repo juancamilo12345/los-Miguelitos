@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+}
+
+main .section_paginas{
+    background-color: rgb(77, 70, 70);
+    width: 100%;
+    flex-basis: 35%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .section_paginas .section{
+    width: 15.625em;
+    height: 85%;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+main .section_paginas a{
+    width: 100%;
+    height: 100%;
+}
+
+.section_campana{
+    flex-basis: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #00bcd4;
+}
+
+footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+header .bienvenida{
+    background-image: url(imagenes/imagendeinicio.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bienvenida h1{
+    color: white;
+    font-size: 40px;
+}
+
+.oscuro{
+    background-color: rgba(0, 0, 0, 0.405);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.--postularse{
+    background-image: url(imagenes/seccionPOSTULARSE.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.--socios{
+    background-image: url(imagenes/seccionSocios.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.--empresas{
+    background-image: url(imagenes/seccionEmpresas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section{
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+.section:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    background-color: rgba(0, 0, 0, 0.405);
+    .oscuroSECCIONES{
+        display: block;
+    }
+}
+
+.oscuroSECCIONES{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.395);
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.imagenPromocion{
+    max-width: 98.5%;
+    max-height: 500px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 10px;
+}
+
