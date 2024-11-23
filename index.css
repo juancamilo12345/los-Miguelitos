@@ -19,6 +19,7 @@ main .section_paginas{
     gap: 20px;
     align-items: center;
     justify-content: space-around;
+    color: white;
 }
 
 main .section_paginas .section{
