@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
 
+color: white;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -107,6 +110,7 @@ header .bienvenida{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 .bienvenida h1{
