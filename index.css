@@ -174,3 +174,13 @@ header .bienvenida{
     border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+    .section_paginas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    main{
+        height: 1600px;
+    }
+}
