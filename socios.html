@@ -32,13 +32,9 @@
                 <label for="fecha">Fecha</label>
                 <input type="date" id="fecha" name="fecha" required>
             </div>
-            <div>
-                <label for="ingreso">Ingreso Diario</label>
-                <input type="number" id="ingreso" name="ingreso" placeholder="Monto del ingreso en $" step="0.01" required>
-            </div>
             <h2>Evaluación de Ingresos</h2>
             <div class="form-group">
-                <label for="ingresos">Ingrese sus ingresos:</label>
+                <label for="ingresos">Digite sus ingresos:</label>
                 <input type="number" id="ingresos" placeholder="Ejemplo: 300000">
             </div>
             <button onclick="evaluarIngresos()">Evaluar</button>
@@ -139,9 +135,9 @@
             event.preventDefault();
             const vendedor = document.getElementById("vendedor").value;
             const fecha = document.getElementById("fecha").value;
-            const ingreso = document.getElementById("ingreso").value;
+            const ingresos = document.getElementById("ingresos").value;
 
-            alert(`Ingreso registrado:\nVendedor: ${vendedor}\nFecha: ${fecha}\nMonto: $${ingreso}`);
+            alert(`Ingreso registrado:\nVendedor: ${vendedor}\nFecha: ${fecha}\nMonto: $${ingresos}`);
         });
     </script>
 </body>
