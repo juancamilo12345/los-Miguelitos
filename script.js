@@ -20,5 +20,5 @@ let eleccionUsuario = prompt("Elige: piedra, papel o tijeras");
 
 if (eleccionUsuario === "piedra" || eleccionUsuario === "papel" || eleccionUsuario === "tijeras") {
   jugar(eleccionUsuario);
-} else {
+} else 
   alert("Elección inválida. Por favor, elige piedra, papel o tijeras.");
